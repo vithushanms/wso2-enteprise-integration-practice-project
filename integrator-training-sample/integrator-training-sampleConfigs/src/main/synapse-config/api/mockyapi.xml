@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/mockyapi" name="mockyapi" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/fetch">
+        <inSequence>
+            <log description="Log mediator 1" level="custom"/>
+            <call>
+                <endpoint key="mockyendpoint"/>
+            </call>
+            <log description="Log Mediator 2" level="full"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="mockyendpoint" groupId="com.training.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/mockyendpoint.xml</file>
+    </artifact>
+    <artifact name="mockyapi" groupId="com.training.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/mockyapi.xml</file>
+    </artifact>
+    <artifact name="mockyapi_swagger" groupId="com.training.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/mockyapi_swagger.yaml</file>
+    </artifact>
+    <artifact name="mockyapi_metadata" groupId="com.training.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/mockyapi_metadata.yaml</file>
+    </artifact>
+</artifacts>
